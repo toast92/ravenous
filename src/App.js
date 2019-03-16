@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import logo from './favicon.ico';
 import './App.css';
+import Business from './components/Business/Business';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+      <Business />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
